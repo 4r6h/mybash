@@ -38,7 +38,7 @@ alias cs="colorscript"
 alias csr="colorscript random"
 colorscript -e awk-rgb-test
 
-echo "WELLCOME TO RAHAT'S FISH CONIG"
+echo "WELLCOME TO RAHAT'S BASH CONIG"
 #################################################
 
 PS1='[\u@\h \W]\$ '
