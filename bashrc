@@ -33,6 +33,12 @@ alias vsc="sudo vim /usr/share/sddm/themes/Sugar-Candy/theme.conf"
 alias cpsddm="sudo cp /usr/lib/sddm/sddm.conf.d/default.conf /etc/sddm.conf"
 alias vsddm="sudo vim /etc/sddm.conf"
 
+###For COLORSCRIPT###
+alias cs="colorscript"
+alias csr="colorscript random"
+colorscript -e awk-rgb-test
+
+echo "WELLCOME TO RAHAT'S FISH CONIG"
 #################################################
 
 PS1='[\u@\h \W]\$ '
