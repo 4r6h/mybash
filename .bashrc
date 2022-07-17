@@ -15,7 +15,7 @@ alias cc="clear"
        ####ALIASES ADDED BY 4R6H/RAHAT####
 
 ###For PACMAN###
-alias pacman="sudo pacman"
+alias p="sudo pacman"
 
 ###For BASH###
 alias vbc="vim $HOME/.bashrc"
