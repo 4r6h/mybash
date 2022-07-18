@@ -39,8 +39,10 @@ alias vsddm="sudo vim /etc/sddm.conf"
 alias cs="colorscript"
 alias csr="colorscript random"
 colorscript -e awk-rgb-test
-
 echo "WELLCOME TO RAHAT'S BASH CONIG"
+
+###STARSHIP-BASH-PROMPT###
+eval "$(starship init bash)"
 #################################################
 
 PS1='[\u@\h \W]\$ '
