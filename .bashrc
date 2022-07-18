@@ -11,8 +11,7 @@
 alias ll="lsd -lah"
 alias cc="clear"
 alias upd="sudo updatedb"
-alias github="git clone https://github.com"
-alias git4r6h="git clone https://github.com/4r6h"
+
 #################################################
        ####ALIASES ADDED BY 4R6H/RAHAT####
 
