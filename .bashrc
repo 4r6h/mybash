@@ -10,6 +10,7 @@
 #alias ll="ls -lah --color=auto"
 alias ll="lsd -lah"
 alias cc="clear"
+alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
 
 #################################################
        ####ALIASES ADDED BY 4R6H/RAHAT####
