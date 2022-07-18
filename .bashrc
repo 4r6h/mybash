@@ -19,10 +19,13 @@ alias git4r6h="https://github.com/4r6h"
 ###For PACMAN###
 alias p="sudo pacman --color=auto"
 alias ps="pacman -Ss --color=auto"
+alias uppac="pacman -Syyu --noconfirm"
 
 ###For PARU###
-alias a="sudo pacman --color=auto"
-alias as="pacman -Ss --color=auto"
+alias a="paru --color=auto"
+alias as="paru -Ss --color=auto"
+alias upaur="paru -Syua --noconfirm"
+alias upall="paru -Syyu --noconfirm"
 
 ###For BASH###
 alias vbc="vim $HOME/.bashrc"
