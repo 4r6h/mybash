@@ -17,7 +17,12 @@ alias git4r6h="https://github.com/4r6h"
        ####ALIASES ADDED BY 4R6H/RAHAT####
 
 ###For PACMAN###
-alias p="sudo pacman"
+alias p="sudo pacman --color=auto"
+alias ps="pacman -Ss --color=auto"
+
+###For PARU###
+alias a="sudo pacman --color=auto"
+alias as="pacman -Ss --color=auto"
 
 ###For BASH###
 alias vbc="vim $HOME/.bashrc"
