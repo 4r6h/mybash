@@ -10,7 +10,6 @@
 #alias ll="ls -lah --color=auto"
 alias ll="lsd -lah"
 alias cc="clear"
-alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
 alias upd="sudo updatedb"
 alias github="https://github.com"
 alias git4r6h="https://github.com/4r6h"
@@ -21,6 +20,8 @@ alias git4r6h="https://github.com/4r6h"
 alias p="sudo pacman --color=auto"
 alias ps="pacman -Ss --color=auto"
 alias uppac="pacman -Syyu --noconfirm"
+alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
+alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
 
 ###For PARU###
 alias a="paru --color=auto"
