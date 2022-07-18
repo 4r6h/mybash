@@ -7,7 +7,7 @@
 
 # Adding Aliases
 
-#alias ll="ls -lah --color=auto"
+#alias ll="ls -lah --color=auto"p
 alias ll="lsd -lah"
 alias cc="clear"
 alias upd="sudo updatedb"
@@ -17,9 +17,9 @@ alias git4r6h="git clone https://github.com/4r6h"
        ####ALIASES ADDED BY 4R6H/RAHAT####
 
 ###For PACMAN###
-alias p="sudo pacman --color=auto"
-alias ps="pacman -Ss --color=auto"
-alias uppac="pacman -Syyu --noconfirm"
+alias p="sudo pacman"
+alias ps="sudo pacman -Ss --color=auto"
+alias uppac="sudo pacman -Syyu --noconfirm"
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
 
