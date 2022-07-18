@@ -43,6 +43,11 @@ echo "WELLCOME TO RAHAT'S BASH CONIG"
 
 ###STARSHIP-BASH-PROMPT###
 eval "$(starship init bash)"
+
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
 #################################################
 
 PS1='[\u@\h \W]\$ '
