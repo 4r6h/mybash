@@ -11,7 +11,8 @@
 alias ll="lsd -lah"
 alias cc="clear"
 alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
-
+alias github="https://github.com"
+alias git4r6h="https://github.com/4r6h"
 #################################################
        ####ALIASES ADDED BY 4R6H/RAHAT####
 
