@@ -16,14 +16,16 @@ alias upd="sudo updatedb"
        ####ALIASES ADDED BY 4R6H/RAHAT####
 
 ###For PACMAN###
-alias p="sudo pacman"
+alias p="sudo pacman -S"
+alias prm="sudo pacman -Rns"
 alias ps="sudo pacman -Ss --color=auto"
 alias uppac="sudo pacman -Syyu --noconfirm"
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
 
 ###For PARU###
-alias a="paru --color=auto"
+alias a="paru -S"
+alias arm="paru -Rns"
 alias as="paru -Ss --color=auto"
 alias upaur="paru -Syua --noconfirm"
 alias upall="paru -Syyu --noconfirm"
