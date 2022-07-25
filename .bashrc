@@ -18,7 +18,7 @@ alias upd="sudo updatedb"
 ###For PACMAN###
 alias p="sudo pacman -S"
 alias prm="sudo pacman -Rns"
-alias ps="sudo pacman -Ss --color=auto"
+alias ps="pacman -Ss --color=auto"
 alias uppac="sudo pacman -Syyu --noconfirm"
 alias cleanup='sudo pacman -Rns $(pacman -Qtdq)'
 alias ddb="sudo rm -rf /var/lib/pacman/db.lck"
